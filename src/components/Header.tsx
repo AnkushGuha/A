@@ -14,7 +14,7 @@ const Header: React.FC = () => {
    <img
   src={logo}
   alt="Logo"
-  className="h-20 sm:h-40 md:h-60 w-auto object-contain"
+  className="h-10 sm:h-15 md:h-20 lg:h-30 w-auto object-contain"
 />
         {/* Desktop Nav */}
         <nav className="hidden md:flex space-x-8 items-center">
