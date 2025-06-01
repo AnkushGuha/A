@@ -12,11 +12,13 @@ const Header: React.FC = () => {
     <header className="bg-black text-white shadow-md sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
         {/* Logo and Brand */}
-      <img
-      src={logo}
-      alt="Flowgen Arc Logo"
-      className="h-[60px] w-auto max-w-none px-2"
-      />
+      <div className="flex items-center h-20 w-64">
+  <img
+    src="/src/components/logo.jpg"
+    alt="Logo"
+    className="h-full w-auto"
+  />
+</div>
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex space-x-8 items-center">
