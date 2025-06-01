@@ -17,6 +17,7 @@ const Header: React.FC = () => {
   alt="Logo"
   className="h-12 sm:h-16 md:h-20 w-auto object-contain"
 />
+        <h1 className="text-5xl text-red-500">DEBUG TEST</h1>
         {/* Desktop Nav */}
         <nav className="hidden md:flex space-x-8 items-center">
           <Link to="/" className="hover:text-indigo-400 transition">Home</Link>
