@@ -12,7 +12,7 @@ const Header: React.FC = () => {
     <header className="bg-black text-white shadow-md sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
         {/* Logo and Brand */}
-   <div className="flex items-center" style={{ height: "100px" }}>
+   <div className="flex items-center h-[100px] w-48 sm:w-64 md:w-72 lg:w-80 xl:w-[300px]">
   <img
     src="/src/components/logo.jpg"
     alt="Logo"
