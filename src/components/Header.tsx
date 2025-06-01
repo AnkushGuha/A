@@ -12,14 +12,13 @@ const Header: React.FC = () => {
     <header className="bg-black text-white shadow-md sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
         {/* Logo and Brand */}
-      <div className="flex items-center h-20 w-64">
+   <div className="flex items-center" style={{ height: "100px" }}>
   <img
     src="/src/components/logo.jpg"
     alt="Logo"
-    className="h-full w-auto"
+    className="h-full w-auto object-contain"
   />
 </div>
-
         {/* Desktop Nav */}
         <nav className="hidden md:flex space-x-8 items-center">
           <Link to="/" className="hover:text-indigo-400 transition">Home</Link>
