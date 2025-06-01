@@ -12,10 +12,10 @@ const Header: React.FC = () => {
     <header className="bg-black text-white shadow-md sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
         {/* Logo and Brand */}
-        <img
+      <img
   src={logo}
   alt="Flowgen Arc Logo"
-  className="h-12 w-auto"
+  className="h-14 w-auto max-w-[160px] px-2"
 />
 
 
