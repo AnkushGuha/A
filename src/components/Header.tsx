@@ -1,4 +1,3 @@
-console.log("HEADER COMPONENT LOADED");
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo from './logo.jpg'; // ✅ Make sure logo.jpg exists at src/components/logo.jpg
@@ -15,9 +14,8 @@ const Header: React.FC = () => {
    <img
   src={logo}
   alt="Logo"
-  className="h-12 sm:h-16 md:h-20 w-auto object-contain"
+  className="h-20 sm:h-40 md:h-60 w-auto object-contain"
 />
-        <h1 className="text-5xl text-red-500">DEBUG TEST</h1>
         {/* Desktop Nav */}
         <nav className="hidden md:flex space-x-8 items-center">
           <Link to="/" className="hover:text-indigo-400 transition">Home</Link>
