@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import logo from './logo.jpg'; // ✅ Make sure logo.jpg exists at src/components/logo.jpg
+import logo from './logo.png'; // ✅ Make sure logo.jpg exists at src/components/logo.jpg
 
 const Header: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
