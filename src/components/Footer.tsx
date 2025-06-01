@@ -1,5 +1,6 @@
 import React from 'react';
 import { Phone, Facebook, Twitter, Linkedin, Instagram, ArrowUp } from 'lucide-react';
+import logo from './logo.png'; 
 
 const Footer: React.FC = () => {
   const scrollToTop = () => {
@@ -16,7 +17,11 @@ const Footer: React.FC = () => {
           <div>
             <div className="flex items-center mb-4">
               <Phone className="h-8 w-8 text-[#00FFFF]" />
-              <span className="ml-2 text-2xl font-bold text-white">FlowgenArc</span>
+              <img
+                 src={logo}
+                 alt="Logo"
+                 style={{ width: '200px' }}
+              />
             </div>
             <p className="text-gray-400 mb-6">
               Revolutionizing customer service with advanced AI call agents. 
