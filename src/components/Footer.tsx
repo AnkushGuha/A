@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
               <img
                  src={logo}
                  alt="Logo"
-                 style={{ width: '200px' }}
+                 style={{ width: '200px', paddingleft: '15px' }}
               />
             </div>
             <p className="text-gray-400 mb-6">
