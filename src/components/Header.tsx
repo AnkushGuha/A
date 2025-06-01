@@ -1,4 +1,4 @@
-
+console.log("HEADER COMPONENT LOADED");
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo from './logo.jpg'; // ✅ Make sure logo.jpg exists at src/components/logo.jpg
