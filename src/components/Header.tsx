@@ -23,7 +23,7 @@ const Header: React.FC = () => {
           <Link to="/pricing" className="hover:text-indigo-400 transition">Pricing</Link>
           <Link to="/about" className="hover:text-indigo-400 transition">About</Link>
           <Link
-            to="/signup"
+            to="/login"
             className="ml-4 bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-full transition"
           >
             Get Started
