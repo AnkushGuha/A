@@ -20,16 +20,16 @@ const Testimonials: React.FC = () => {
     },
     {
       quote: "The AI agents are incredibly natural in conversation. Our customers often don't realize they're speaking with an AI until we tell them.",
-      author: "Michael Chen",
-      position: "CTO",
+      author: "Harsh shah",
+      position: "Web Development Manager",
       company: "Crescent tech",
       image: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
       quote: "We deployed FlowgenArc across our global support team and saw ROI within the first month. The scalability during peak seasons is invaluable.",
-      author: "Jessica Rodriguez",
-      position: "VP of Operations",
-      company: "Cosmos",
+      author: "Dhruv Rathi",
+      position: "Owner",
+      company: "Sentai development",
       image: "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=600"
     }
   ];
