@@ -84,14 +84,7 @@ const Contact: React.FC = () => {
                     </a>
                   </div>
                 </div>
-                
-                <div className="flex items-start">
-                  <div className="bg-black p-3 rounded-lg mr-4">
-                    <MapPin className="h-6 w-6 text-[#00FFFF]" />
-                  </div>
-                
-                </div>
-              </div>
+              
               
               <div className="mt-8 bg-black bg-opacity-50 rounded-lg p-6 border border-gray-800">
                 <h4 className="text-white font-medium mb-4">Want a Demo?</h4>
