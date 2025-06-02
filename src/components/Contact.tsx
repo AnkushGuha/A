@@ -67,8 +67,8 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="text-white font-medium">Email Us</h4>
-                    <a href="mailto:flowgenarc@gmail.com" className="text-gray-400 hover:text-[#00FFFF] transition-colors">
-                      flowgenarc@gmail.com
+                    <a href="mailto:info@flowgenarc.com" className="text-gray-400 hover:text-[#00FFFF] transition-colors">
+                     info@flowgenarc.com
                     </a>
                   </div>
                 </div>
@@ -96,7 +96,7 @@ const Contact: React.FC = () => {
               <div className="mt-8 bg-black bg-opacity-50 rounded-lg p-6 border border-gray-800">
                 <h4 className="text-white font-medium mb-4">Want a Demo?</h4>
                 <p className="text-gray-400 mb-4">
-                  Contact us at flowgenarc@gmail.com
+                  Contact us at info@flowgenarc.com
                 </p>
                 
               </div>
