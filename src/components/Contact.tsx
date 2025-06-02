@@ -80,7 +80,7 @@ const Contact: React.FC = () => {
                   <div>
                     <h4 className="text-white font-medium">Call Us</h4>
                     <a href="tel:+18005551234" className="text-gray-400 hover:text-[#00FFFF] transition-colors">
-                      +1 (800) 555-1234
+                      +917620380245
                     </a>
                   </div>
                 </div>
