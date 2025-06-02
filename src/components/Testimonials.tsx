@@ -1,3 +1,5 @@
+import AdiImage from './Testimonial Pictures/Adi.png';
+import DhruvImage from './Testimonial Pictures/Dhruv.png';
 import React, { useState } from 'react';
 import { ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 
@@ -16,6 +18,7 @@ const Testimonials: React.FC = () => {
       author: "Aditya",
       position: "Founder",
       company: "Nemesis Technologies Ltd.",
+      image: AdiImage
       
     },
     {
@@ -30,7 +33,7 @@ const Testimonials: React.FC = () => {
       author: "Dhruv Rathi",
       position: "Owner",
       company: "Sentai development",
-      image: "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=600"
+      image: DhruvImage
     }
   ];
 
