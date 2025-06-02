@@ -84,6 +84,7 @@ const Contact: React.FC = () => {
                     </a>
                   </div>
                 </div>
+               </div>
               
               
               <div className="mt-8 bg-black bg-opacity-50 rounded-lg p-6 border border-gray-800">
