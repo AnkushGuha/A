@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Features from './components/Features';
@@ -11,7 +11,6 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Login from './components/Login';
 
-// ✅ Define the HomePage component to group the homepage content
 function HomePage() {
   return (
     <>
@@ -37,12 +36,10 @@ function App() {
 
   return (
     <div className="min-h-screen bg-black text-white">
-      <Router>
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/login" element={<Login />} />
-        </Routes>
-      </Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/login" element={<Login />} />
+      </Routes>
     </div>
   );
 }
