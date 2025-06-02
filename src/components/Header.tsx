@@ -56,12 +56,12 @@ const Header: React.FC = () => {
           <Link to="/features" className="block hover:text-indigo-400">Features</Link>
           <Link to="/pricing" className="block hover:text-indigo-400">Pricing</Link>
           <Link to="/about" className="block hover:text-indigo-400">About</Link>
-          <Link
-            to="/signup"
-            className="block bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-full text-center transition"
-          >
-            Get Started
-          </Link>
+         <Link
+  to="/login"
+  className="block bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-full text-center transition"
+>
+  Get Started
+</Link>
         </div>
       )}
     </header>
