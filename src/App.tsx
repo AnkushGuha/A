@@ -11,16 +11,9 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Login from './components/Login';
 
-function App() {
-  useEffect(() => {
-    // Update page title
-    document.title = "FlowgenArc - Revolutionizing Customer Service with AI Call Agents";
-  }, []);
-
-// ✅ Define the HomePage component to group the homepage content
+// HomePage component that contains all the main landing page sections
 function HomePage() {
   return (
-    <div className="min-h-screen bg-black text-white">
     <>
       <Header />
       <main>
